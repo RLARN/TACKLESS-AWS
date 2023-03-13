@@ -1,0 +1,19 @@
+{{>layouts/header}}
+
+<form class="container" action="/articles/create" method="post">
+    <div class="p-5">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Title</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp" name="title">
+            <div id="emailHelp" class="form-text">We'll never share your kimchi.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Content</label>
+            <textarea class="form-control" rows="3" name="content"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button class="btn btn-primary"><a href="/articles" class="text-white text-decoration-none">Back</a></button> 
+    </div>
+</form>
+
+{{>layouts/footer}}

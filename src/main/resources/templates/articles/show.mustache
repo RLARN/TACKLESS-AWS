@@ -1,0 +1,27 @@
+{{>layouts/header}}
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Content</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#article}}
+  {{! 모델에 등록한 데이터 이름: article }}
+    <tr>
+      <th>{{id}}</th>
+      <td>{{title}}</td>
+      <td>{{content}}</td>
+    </tr>
+    {{/article}}
+  </tbody>
+</table>
+<button class="btn btn-primary"><a href="/articles/{{article.id}}/edit" class="text-white text-decoration-none">Edit</a></button> 
+<!-- -->
+<button class="btn btn-danger"><a href="/articles/{{article.id}}/delete" class="text-white text-decoration-none">Delete</a></button> 
+<button class="btn btn-primary"><a href="/articles" class="text-white text-decoration-none">Go to Article List</a></button> 
+
+{{>layouts/footer}}
