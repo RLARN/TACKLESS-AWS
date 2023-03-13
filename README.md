@@ -38,7 +38,7 @@
 ## Information
 <footer>
         <div class="footer">
-            <img src="./img/logo.png" alt="logo" width="auto"  style="width:20vw">
+            <img src="./src/main/resources/Tackless/img/logo.png" alt="logo" width="auto"  style="width:20vw">
             <div>
             <address>Our Project benches KAAREKLINT : https://kaareklint.co.kr<br></address>
             <address>Image / Video Resorce: KAAREKLINT, EMONS<br></address> <address>This project is made for non-profit purposes.<br></address>
