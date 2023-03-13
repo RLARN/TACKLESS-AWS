@@ -1,31 +1,51 @@
-# spring boot
-doc + 탭 기본 html 코드 작성
-
-
-## MVC 
-클라이언트로 부터 컨트롤러가 요청받고
-뷰는 최종페이지 만들어주고
-모델은 최종페이지에서 쓰일 데이터를 뷰에 전달
-
-
+# TACKLESS
+안녕하십니까 여러분. PM 입니다.   
+ Tackless의 뜻은 못(나사) 없이 잘짜여진 심리스 디자인 가구 를 뜻하며, 이 사이트는 ci 디자인 기조를 바탕으로 제작 되었습니다.
+ Tackless는 친환경 가구를 지향하며, 최근 트랜드인 원룸과 재택근무에 맞는 가구를 타깃으로 만들어진 가상의 회사 입니다.
+ * TACKLESS 사이트는 PC 기반으로 제작되었으며, 브라우저의 창 크기에 대응 합니다.
+ * 전체적인 레이아웃은 일반 판매 사이트가 아닌, 가구를 소개하는 느낌의 갤러리 형태로 구성 되었습니다.
+* AOS를 응용한 고급스럽고 생동감 넘치는 애니메이션 효과에 최적화되로독 디자인 되었습니다.
+* AWS 서비스를 이용하여 구현되었습니다.
 ---
-## CRUD(8강)
-
-Create  
-	폼데이터 주고받기
-	어디로 보낼지(Action) 어떻게 보낼지(Method)
-	폼 데이터를 받아올 그릇 / 객채로 담아서 보낸다(DTO)
-	
-Read  
-Update  
-Delete  
-
+---
+## Project Structure
+* Main
+* Shop
+    * LR-Line
+    * BN-Line
+    * TM-Line
+* Story
+---
+## Technology
+*   HTML5
+*   CSS
+*   AOS
+*	JAVA-SpringBoot
+* 	AWS
+---
+## IDE
+* VisualStudioCode (LiveServer)
+---
+## Collaboration Tools
+* GitHub
+* Google Drive
+* Discord
+* Notion
+---
 ---
 
-## JPA
-DB에 대이터를 기록하려면… DB는 자바를 모른다. 이를 위한 도구가 JPA다.  
-DTO > Entity(Repository) > Table
 
-컨트롤러에서..  
-DTO를 Entity로 변환(Entity타입 > Entity 변환)  
-Repository 에게 Entity를 DB안에 저장하게 함.
+## Information
+<footer>
+        <div class="footer">
+            <img src="./img/logo.png" alt="logo" width="auto"  style="width:20vw">
+            <div>
+            <address>Our Project benches KAAREKLINT : https://kaareklint.co.kr<br></address>
+            <address>Image / Video Resorce: KAAREKLINT, EMONS<br></address> <address>This project is made for non-profit purposes.<br></address>
+                <address>Contact Tackless for more information - PM: msjdoc0645@naver.com <br></address>
+                <address>Creator : 문동환 </address>
+                        </div>
+    </footer>
+
+
+
